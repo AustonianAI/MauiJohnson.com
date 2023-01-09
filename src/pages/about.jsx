@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
@@ -61,58 +62,67 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the
-              future.
+              Hello! I'm Maui, a hospitality focused interior designer.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+                Hello! I'm Maui Johnson, an interior design director for an
+                award-winning architectural firm. I was born in Mexico but I
+                have called the United States home since I was 12 years old.
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
+                Throughout my career I have worked on some of the most
+                prestigious and high-profile projects in the hospitality and
+                gaming industries. I've been fortunate to travel around the
+                world and live in amazing places and experience different
+                cultures, which I believe has allowed me to better understand
+                and appreciate the unique nuances and designs of these
+                hospitality projects.
               </p>
               <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
+                My cultural background gives me a unique affinity for Native
+                American hotel and casino projects. I truly believe I can bring
+                a special point of view to these types of projects as I
+                understand the cultural underpinnings of the design process. As
+                a designer, I feel that it is our responsibility to empathize
+                with and find the best ways to portray the voice of our client's
+                heritage.
               </p>
               <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
+                When I'm not working, I am living in Austin, Texas with my
+                husband. I'm passionate about local design, exploring the
+                different neighborhoods of Austin and everything the city has to
+                offer.
+              </p>
+              <p>
+                I'm excited to be part of the design community and continue to
+                create wonderful, meaningful projects inspired by the rich
+                cultural backgrounds of my clients.
               </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="#" icon={TwitterIcon}>
-                Follow on Twitter
-              </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+              <SocialLink
+                href="https://www.instagram.com/mauijohnson/"
+                icon={InstagramIcon}
+                className="mt-4"
+              >
                 Follow on Instagram
               </SocialLink>
-              <SocialLink href="#" icon={GitHubIcon} className="mt-4">
-                Follow on GitHub
-              </SocialLink>
-              <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+              <SocialLink
+                href="https://www.linkedin.com/in/maui-johnson-designer/"
+                icon={LinkedInIcon}
+                className="mt-4"
+              >
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:spencer@planetaria.tech"
+                href="mailto:Hello@MauiJohnson.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                spencer@planetaria.tech
+                Hello@MauiJohnson.com
               </SocialLink>
             </ul>
           </div>
