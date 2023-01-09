@@ -250,7 +250,7 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>Maui Johnson - Interior Designer based ATX</title>
+        <title>Maui Johnson - Interior Designer based in ATX</title>
         <meta
           name="description"
           content="I’m Maui, an interior designer in Austin, TX. With director level experience for top interior design and architecture firms, I am a thorough professional with a passion for design."
@@ -259,8 +259,11 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Maui Johnson - Interior Designer based in ATX
+            Maui Johnson
           </h1>
+          <h2 className="mt-6 text-3xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            ATX Based Interior Designer
+          </h2>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Maui, an interior designer in Austin, TX. With director level
             experience for top interior design and architecture firms, I am a
@@ -268,22 +271,12 @@ export default function Home({ articles }) {
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />
-            <SocialLink
-              href="https://instagram.com"
+              href="https://www.instagram.com/mauijohnson/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/maui-johnson-designer/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
