@@ -65,12 +65,12 @@ export default function Projects() {
         <title>Projects - Spencer Sharp</title>
         <meta
           name="description"
-          content="Things I’ve made trying to put my dent in the universe."
+          content="Designing for Success: A Look at Maui Johnson's Impressive Project Portfolio"
         />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        title="Designing for Success: A Look at Maui Johnson's Impressive Project Portfolio"
+        intro="Maui Johnson is an accomplished interior designer with over 15 years of experience in the hospitality industry. She has a diverse portfolio of notable projects that showcase her expertise and skill in the design of casinos and hotels, as well as her passion for sustainable and eco-friendly design, technology, and cultural sensitivity and representation of Native American tribes. From large-scale casino and hotel renovations, to the design of boutique hotels and restaurants, Maui has a proven track record of delivering innovative and successful projects for her clients."
       >
         <ul
           role="list"

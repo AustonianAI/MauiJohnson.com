@@ -42,10 +42,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
+        <title>Meet Maui Johnson - NCIDQ Certified Interior Designer</title>
         <meta
           name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
+          content="Meet Maui Johnson - NCIDQ Certified Interior Designer"
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -62,42 +62,48 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Hello! I'm Maui, a hospitality focused interior designer.
+              Meet Maui Johnson - NCIDQ Certified Interior Designer
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Hello! I'm Maui Johnson, an interior design director for an
-                award-winning architectural firm. I was born in Mexico but I
-                have called the United States home since I was 12 years old.
+                Maui Johnson is a highly accomplished and experienced interior
+                designer with a passion for creating beautiful and functional
+                spaces that exceed client expectations. With over 15 years of
+                experience designing award-winning projects in the hospitality
+                industry, Maui is a leading expert in her field.
               </p>
               <p>
-                Throughout my career I have worked on some of the most
-                prestigious and high-profile projects in the hospitality and
-                gaming industries. I've been fortunate to travel around the
-                world and live in amazing places and experience different
-                cultures, which I believe has allowed me to better understand
-                and appreciate the unique nuances and designs of these
-                hospitality projects.
+                Maui is an NCIDQ certified designer, which is a designation that
+                demonstrates her commitment to the highest standards of design
+                excellence. As the Interior Design Director for a leading
+                architectural firm, Maui has a wealth of experience managing
+                large-scale projects and leading teams of designers and
+                architects.
               </p>
               <p>
-                My cultural background gives me a unique affinity for Native
-                American hotel and casino projects. I truly believe I can bring
-                a special point of view to these types of projects as I
-                understand the cultural underpinnings of the design process. As
-                a designer, I feel that it is our responsibility to empathize
-                with and find the best ways to portray the voice of our client's
-                heritage.
+                Maui's technical skills include proficiency in Revit, AutoCAD,
+                SketchUp, Photoshop, InDesign, Illustrator, Microsoft Office,
+                Spexx, and FF&Ez, allowing her to create detailed and accurate
+                construction documents that bring her designs to life.
+                Additionally, Maui's creative skills include space planning,
+                hand rendering, hand sketching, programming, and construction
+                documents.
               </p>
               <p>
-                When I'm not working, I am living in Austin, Texas with my
-                husband. I'm passionate about local design, exploring the
-                different neighborhoods of Austin and everything the city has to
-                offer.
+                Maui's innate ability to understand her client's needs and
+                preferences, combined with her technical and creative skills,
+                result in the development of unique and practical design
+                concepts. Additionally, she is able to communicate her ideas to
+                clients and team members in both English and Spanish which helps
+                to ensure that the final design is aligned with the client's
+                vision.
               </p>
               <p>
-                I'm excited to be part of the design community and continue to
-                create wonderful, meaningful projects inspired by the rich
-                cultural backgrounds of my clients.
+                If you're looking for an interior designer who is dedicated to
+                creating spaces that are as beautiful as they are functional,
+                look no further than Maui Johnson. With her skills, experience,
+                and passion for design, Maui is the perfect choice to bring your
+                vision to life.
               </p>
             </div>
           </div>

@@ -17,10 +17,6 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
@@ -139,35 +135,37 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      company: 'WORTHGROUP Architects & Designers',
+      title: 'Director of Interior Design',
+      start: '2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      company: 'WORTHGROUP Architects & Designers',
+      title: 'Senior Interior Designer',
+      start: '2016',
+      end: '2022',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'JOHNSON NATHAN STROHE',
+      title: 'Associate / Senior Designer',
+      start: '2013',
+      end: '2016',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'Design Lines, Inc.',
+      title: 'Senior Designer',
+      start: '2013',
+      end: '2013',
+    },
+    {
+      company: 'Kimberly Timmons Interiors, LLC',
+      title: 'Senior Designer',
+      start: '2007',
+      end: '2013',
     },
   ]
 
@@ -175,14 +173,11 @@ function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <span className="ml-3">Work History</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
-            <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-              <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
-            </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
               <dt className="sr-only">Company</dt>
               <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
@@ -211,10 +206,10 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
+      {/* <Button href="#" variant="secondary" className="group mt-6 w-full">
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
+      </Button> */}
     </div>
   )
 }
@@ -253,21 +248,22 @@ export default function Home({ articles }) {
         <title>Maui Johnson - Interior Designer based in ATX</title>
         <meta
           name="description"
-          content="I’m Maui, an interior designer in Austin, TX. With director level experience for top interior design and architecture firms, I am a thorough professional with a passion for design."
+          content="Transform Your Space with NCIDQ-Certified Interior Designer Maui Johnson"
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Maui Johnson
+            Experience the Art of Design with Maui Johnson
           </h1>
-          <h2 className="mt-6 text-3xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
-            ATX Based Interior Designer
-          </h2>
+
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Maui, an interior designer in Austin, TX. With director level
-            experience for top interior design and architecture firms, I am a
-            thorough professional with a passion for design.
+            Meet Maui Johnson, an NCIDQ certified and award-winning interior
+            designer based in Austin, Texas. With over 15 years of experience
+            designing hospitality projects and serving as Interior Design
+            Director for a top architectural firm, Maui has the skills and
+            expertise to create stunning and functional spaces that exceed
+            client expectations.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
