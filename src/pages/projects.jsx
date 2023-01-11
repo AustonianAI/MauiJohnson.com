@@ -1,49 +1,141 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
 import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoRestaurant from '@/images/logos/restaurant.svg'
+import logoCasino from '@/images/logos/casino.svg'
+import logoHotel from '@/images/logos/hotel.svg'
+import logoCommunityCenter from '@/images/logos/community-center.svg'
+import logoRenovation from '@/images/logos/renovation.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
-    description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+    name: 'Chicken Ranch Casino Resort',
+    description: 'Casino - Jamestown, CA',
+    location: 'Jamestown, CA',
+    logo: logoCasino,
   },
   {
-    name: 'Animaginary',
-    description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+    name: 'Hard Rock Hotel and Casino Tulsa - Suite Tower Renovation',
+    description: 'Hotel and Casino Renovation - Catoosa, OK',
+    location: 'Catoosa, OK',
+    logo: logoRenovation,
   },
   {
-    name: 'HelioStream',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+    name: 'Cherokee Hotel & Casino West Siloam Springs - Hotel Renovation',
+    description: 'Hotel Renovation - West Siloam Springs, OK',
+    location: 'West Siloam Springs, OK',
+    logo: logoRenovation,
   },
   {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+    name: 'Lucky Star Casino & Hotel',
+    description: 'Casino and Hotel - Watonga, OK',
+    location: 'Watonga, OK',
+    logo: logoCasino,
   },
   {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+    name: 'Muckleshoot Casino',
+    description: 'Casino - Auburn, WA',
+    location: 'Auburn, WA',
+    logo: logoCasino,
+  },
+  {
+    name: 'Courtyard by Marriott',
+    description: 'Hotel - Petaluma, CA',
+    location: 'Petaluma, CA',
+    logo: logoHotel,
+  },
+  {
+    name: 'Cahuilla Casino Hotel',
+    description: 'Casino and Hotel - Anza, CA',
+    location: 'Anza, CA',
+    logo: logoCasino,
+  },
+  {
+    name: 'Dakota Magic Casino Masterplan and Expansion',
+    description: 'Casino Renovation - Sisseton, ND',
+    location: 'Sisseton, ND',
+    logo: logoRenovation,
+  },
+  {
+    name: 'Mystic Lake Casino Hotel – Hotel and Conference Center Addition',
+    description: 'Hotel and Conference Center Renovation - Prior Lake, MN',
+    location: 'Prior Lake, MN',
+    logo: logoRenovation,
+  },
+  {
+    name: 'Chinook Winds Casino Renovation',
+    description: 'Casino Renovation - Lincoln City, OR',
+    location: 'Lincoln City, OR',
+    logo: logoRenovation,
+  },
+  {
+    name: 'Rincon Tribal Administration Center',
+    description: 'Renovation - Valley Center, CA',
+    location: 'Valley Center, CA',
+    logo: logoRenovation,
+  },
+  {
+    name: 'SpringHill Suites by Marriott',
+    description: 'Hotel - Truckee, CA',
+    location: 'Truckee, CA',
+    logo: logoHotel,
+  },
+  {
+    name: 'Halcyon Hotel Cherry Creek',
+    description: 'Hotel - Denver, CO',
+    location: 'Denver, CO',
+    logo: logoHotel,
+  },
+  {
+    name: 'SpringHill Suites',
+    description: 'Hotel - Fort Worth, TX',
+    location: 'Fort Worth, TX',
+    logo: logoHotel,
+  },
+  {
+    name: 'Embassy Suites',
+    description: 'Hotel - Boulder, CO',
+    location: 'Boulder, CO',
+    logo: logoHotel,
+  },
+  {
+    name: 'Hilton Garden Inn',
+    description: 'Hotel - Boulder, CO',
+    location: 'Boulder, CO',
+    logo: logoHotel,
+  },
+  {
+    name: 'Hilton Garden Inn LoDo',
+    description: 'Hotel - Denver, CO',
+    location: 'Denver, CO',
+    logo: logoHotel,
+  },
+  {
+    name: 'Magnolia Hotel',
+    description: 'Hotel - Denver, CO',
+    location: 'Denver, CO',
+    logo: logoHotel,
+  },
+  {
+    name: 'Snooze at Union Station',
+    description: 'Restaurant - Denver, CO',
+    location: 'Denver, CO',
+    logo: logoRestaurant,
+  },
+  {
+    name: 'Slotted Spoon',
+    description: 'Restaurant - Denver, CO',
+    location: 'Denver, CO',
+    logo: logoRestaurant,
+  },
+  {
+    name: 'TAG Restaurant',
+    description: 'Restaurant - Denver, CO',
+    location: 'Denver, CO',
+    logo: logoRestaurant,
   },
 ]
 
@@ -62,7 +154,10 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>
+          Designing for Success: A Look at Maui Johnson's Impressive Project
+          Portfolio
+        </title>
         <meta
           name="description"
           content="Designing for Success: A Look at Maui Johnson's Impressive Project Portfolio"
@@ -87,13 +182,13 @@ export default function Projects() {
                 />
               </div>
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project.link.href}>{project.name}</Card.Link>
+                <Card.Title>{project.name}</Card.Title>
               </h2>
               <Card.Description>{project.description}</Card.Description>
-              <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
+              {/* <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
                 <LinkIcon className="h-6 w-6 flex-none" />
                 <span className="ml-2">{project.link.label}</span>
-              </p>
+              </p> */}
             </Card>
           ))}
         </ul>

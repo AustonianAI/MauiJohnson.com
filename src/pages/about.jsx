@@ -66,44 +66,43 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Maui Johnson is a highly accomplished and experienced interior
-                designer with a passion for creating beautiful and functional
-                spaces that exceed client expectations. With over 15 years of
-                experience designing award-winning projects in the hospitality
-                industry, Maui is a leading expert in her field.
+                Meet Maui Johnson, an experienced and skilled interior designer
+                with over 15 years of experience in the hospitality industry.
+                Based out of Austin, Texas, Maui has worked on a diverse range
+                of projects throughout the United States, including casinos,
+                hotels, restaurants, and more.
               </p>
               <p>
-                Maui is an NCIDQ certified designer, which is a designation that
-                demonstrates her commitment to the highest standards of design
-                excellence. As the Interior Design Director for a leading
-                architectural firm, Maui has a wealth of experience managing
-                large-scale projects and leading teams of designers and
-                architects.
+                With a passion for sustainable and eco-friendly design,
+                technology, and cultural sensitivity, Maui's designs reflect her
+                desire to create spaces that not only look beautiful but are
+                also meaningful, authentic, and respectful of diverse cultural
+                heritage. Her portfolio includes a variety of notable projects
+                such as Chicken Ranch Casino Resort in Jamestown, CA, the Hard
+                Rock Hotel and Casino Tulsa in Catoosa, OK, and the Dakota Magic
+                Casino in Sisseton, ND.
               </p>
               <p>
-                Maui's technical skills include proficiency in Revit, AutoCAD,
-                SketchUp, Photoshop, InDesign, Illustrator, Microsoft Office,
-                Spexx, and FF&Ez, allowing her to create detailed and accurate
-                construction documents that bring her designs to life.
-                Additionally, Maui's creative skills include space planning,
-                hand rendering, hand sketching, programming, and construction
-                documents.
+                Maui's expertise in the hospitality design field is not just
+                limited to her professional experience. She has a deep
+                understanding and knowledge of ancient Mesoamerican architecture
+                and culture, which has helped her to bring a new level of
+                authenticity and cultural sensitivity to her work when designing
+                for Native American tribes.
               </p>
               <p>
-                Maui's innate ability to understand her client's needs and
-                preferences, combined with her technical and creative skills,
-                result in the development of unique and practical design
-                concepts. Additionally, she is able to communicate her ideas to
-                clients and team members in both English and Spanish which helps
-                to ensure that the final design is aligned with the client's
-                vision.
+                With a NCIDQ certification, a wealth of technical skills
+                including Revit, AutoCAD, SketchUp, Photoshop, InDesign,
+                Illustrator, Spexx, and FF&Ez. She also has an array of creative
+                skills such as Space Planning, Hand Rendering, Hand Sketching,
+                Programming, Construction Documents and she speaks both English
+                and Spanish.
               </p>
               <p>
-                If you're looking for an interior designer who is dedicated to
-                creating spaces that are as beautiful as they are functional,
-                look no further than Maui Johnson. With her skills, experience,
-                and passion for design, Maui is the perfect choice to bring your
-                vision to life.
+                Maui Johnson is dedicated to creating spaces that are not only
+                beautiful but also meaningful and authentic, and her portfolio
+                speaks for itself. She is committed to working with her clients
+                to bring their vision to life and exceed their expectations.
               </p>
             </div>
           </div>
