@@ -245,29 +245,20 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>Maui Johnson - Interior Designer based in ATX</title>
+        <title>Maui Johnson, NCIDQ - Austin, Texas based Interior Designer</title>
         <meta
           name="description"
-          content="Transform Your Space with NCIDQ-Certified Interior Designer Maui Johnson"
+          content="Maui Johnson is an NCIDQ certified interior designer based in Austin, Texas.  She has over 20 years of experience with projects ranging from hotels, casinos, restaurants, multi-family, and more. "
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Meet Maui Johnson, an Accomplished Interior Designer in the
-            Hospitality Industry
+            Maui Johnson, NCIDQ Certified Interior Designer
           </h1>
 
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Maui Johnson is an experienced and accomplished interior designer
-            with over 15 years of experience in the hospitality industry. With a
-            passion for design and a deep understanding of the industry, Maui
-            has a proven track record of delivering successful projects for her
-            clients. Her portfolio includes a diverse range of notable projects
-            such as casino and hotel renovations, boutique hotels, and
-            restaurants. She is based in Austin, Texas and committed to working
-            with her clients to bring their vision to life and exceed their
-            expectations.
+          I’m Maui, an interior designer based in Austin, Texas. For over 20 years, I have been a part of teams creating incredible hotels, swanky restaurants, exciting casino resorts, and inviting multi-family developments.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -276,7 +267,7 @@ export default function Home({ articles }) {
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://www.linkedin.com/in/maui-johnson-designer/"
+              href="https://www.linkedin.com/in/mauijohnson/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
