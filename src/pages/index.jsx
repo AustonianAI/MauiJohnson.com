@@ -268,7 +268,7 @@ export default function Home({ articles }) {
             />
             <SocialLink
               href="https://www.linkedin.com/in/mauijohnson/"
-              aria-label="Follow on LinkedIn"
+              aria-label="Connect on LinkedIn"
               icon={LinkedInIcon}
             />
           </div>
@@ -283,7 +283,6 @@ export default function Home({ articles }) {
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
             <Resume />
           </div>
         </div>
